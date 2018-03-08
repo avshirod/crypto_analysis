@@ -3,7 +3,7 @@
 # A Python wrapper for https://min-api.cryptocompare.com/
 #
 # Created on:       03/03/2018  Aditya Shirode
-# Last modified:    03/03/2018  Aditya Shirode
+# Last modified:    03/08/2018  Aditya Shirode
 #
 
 import time
@@ -24,10 +24,10 @@ with open(api_queries, 'r') as f:
 API_ENDPOINT = query_yaml['api_endpoint']
 
 # Defaults
-CURR = 'USD'
+CURR = 'BTC'
 EXCHANGE = 'CCCAGG'
-COIN = 'BTC'
-COIN_LIST = ['BTC', 'ETH']
+COIN = 'ETH'
+COIN_LIST = ['ETH', 'XRP']
 EXCHANGES = ['Kucoin', 'Cryptopia', 'HitBTC']
 
 
